@@ -1,5 +1,5 @@
 import React from "react";
-import { FaUser, FaLock, FaEnvelope } from "react-icons/fa";
+// import { FaUser, FaLock, FaEnvelope } from "react-icons/fa";
 import { Link } from "react-router-dom"; // Import Link from react-router-dom
 
 const Signup = () => {
@@ -80,7 +80,7 @@ const Signup = () => {
                 outline: "none",
               }}
             />
-            <FaUser
+            <
               style={{
                 position: "absolute",
                 top: "50%",
@@ -105,7 +105,7 @@ const Signup = () => {
                 outline: "none",
               }}
             />
-            <FaEnvelope
+            <
               style={{
                 position: "absolute",
                 top: "50%",
@@ -130,7 +130,7 @@ const Signup = () => {
                 outline: "none",
               }}
             />
-            <FaLock
+            <
               style={{
                 position: "absolute",
                 top: "50%",
