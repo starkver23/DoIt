@@ -1,6 +1,6 @@
 import React from "react";
-// import { FaUser, FaLock, FaEnvelope } from "react-icons/fa";
 import { Link } from "react-router-dom"; // Import Link from react-router-dom
+// import { FaUser, FaLock, FaEnvelope } from "react-icons/fa"; // Commented out react-icons
 
 const Signup = () => {
   return (
@@ -73,14 +73,14 @@ const Signup = () => {
               required
               style={{
                 width: "100%",
-                padding: "10px 40px",
+                padding: "10px 10px", // Adjusted padding after removing icons
                 fontSize: "16px",
                 border: "1px solid #ccc",
                 borderRadius: "5px",
                 outline: "none",
               }}
             />
-            <
+            {/* <FaUser
               style={{
                 position: "absolute",
                 top: "50%",
@@ -88,7 +88,7 @@ const Signup = () => {
                 transform: "translateY(-50%)",
                 color: "#888",
               }}
-            />
+            /> */}
           </div>
 
           <div style={{ position: "relative", marginBottom: "20px" }}>
@@ -98,14 +98,14 @@ const Signup = () => {
               required
               style={{
                 width: "100%",
-                padding: "10px 40px",
+                padding: "10px 10px", // Adjusted padding after removing icons
                 fontSize: "16px",
                 border: "1px solid #ccc",
                 borderRadius: "5px",
                 outline: "none",
               }}
             />
-            <
+            {/* <FaEnvelope
               style={{
                 position: "absolute",
                 top: "50%",
@@ -113,7 +113,7 @@ const Signup = () => {
                 transform: "translateY(-50%)",
                 color: "#888",
               }}
-            />
+            /> */}
           </div>
 
           <div style={{ position: "relative", marginBottom: "20px" }}>
@@ -123,14 +123,14 @@ const Signup = () => {
               required
               style={{
                 width: "100%",
-                padding: "10px 40px",
+                padding: "10px 10px", // Adjusted padding after removing icons
                 fontSize: "16px",
                 border: "1px solid #ccc",
                 borderRadius: "5px",
                 outline: "none",
               }}
             />
-            <
+            {/* <FaLock
               style={{
                 position: "absolute",
                 top: "50%",
@@ -138,7 +138,7 @@ const Signup = () => {
                 transform: "translateY(-50%)",
                 color: "#888",
               }}
-            />
+            /> */}
           </div>
 
           <button
