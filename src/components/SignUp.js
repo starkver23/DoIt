@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom"; // Import Link from react-router-dom
 // import { FaUser, FaLock, FaEnvelope } from "react-icons/fa"; // Commented out react-icons
 
-const Signup = () => {
+const SignUp = () => {
   return (
     <div
       style={{
@@ -181,4 +181,4 @@ const Signup = () => {
   );
 };
 
-export default Signup;
+export default SignUp;
